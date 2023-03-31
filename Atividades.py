@@ -1,4 +1,4 @@
-#ATIVIDADE DE CASA
+#ATIVIDADES
 #1
 num01 = int(input("Digite o primeiro número: "))
 num02 = int(input("Digite o segundo número: "))
