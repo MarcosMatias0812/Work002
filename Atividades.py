@@ -92,16 +92,6 @@ elif calculo01 >= 31:
     print("Obeso.")
 
 #9
-preço = float(input("preço: "))
-cod = int(input("Digite o código do produto de 1 a 4: "))
-
-if cod == 1
-    print()
-
-
-
-
-#10
 prod01 = float(input("Digite o preço: "))
 prod02 = input("\n Escolha a forma de pagamento: \n A: A vista, em dinheiro ou pix. \n B: A vista ou cartão de crédito. \n C: Parcelar 2 vezes \n")
 
@@ -120,3 +110,8 @@ elif prod02 == ("b"):
 elif prod02 == ("c"):
     print("Você escolheu parcelado em 2 vezes.")
     print("preço total: " ,prod01)
+
+
+
+#10
+
