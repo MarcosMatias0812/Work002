@@ -106,7 +106,7 @@ prod01 = float(input("Digite o preço: "))
 prod02 = input("\n Escolha a forma de pagamento: \n A: A vista, em dinheiro ou pix. \n B: A vista ou cartão de crédito. \n C: Parcelar 2 vezes \n")
 
 if prod02 == ("a"):
-    calculo1 = prod01 * 0.9
+    calculo01 = prod01 * 0.9
     print("Você escolheu à vista em dinheiro ou pix.")
     print("Você possuiu 10% de desconto.")
     print("preço total: R$" ,calculo01)
