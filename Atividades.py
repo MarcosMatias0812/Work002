@@ -114,4 +114,43 @@ elif prod02 == ("c"):
 
 
 #10
+user = int(input('Número de identificação: ')) 
+nota01 = float(input("Primeira nota: ")) 
+nota02 = float(input("Segunda nota: "))
+nota03 = float(input("Terceira nota: "))
 
+ME = int(input("Digite a sua média de exercícios: ")) 
+
+MA = (nota01 + nota02*2 + nota03*3 + ME)/7 
+
+if MA >= 90:
+    print("Identificação n°:" ,user)
+    print("Notas:" ,nota01, nota02, "e" ,nota03,)
+    print("Nédia de exercícios:" ,ME)
+    print("Média de aproveitamento:" ,MA)
+    print("Categoria A \n ==APROVADO==")
+
+elif MA >= 75 and MA < 90:
+    print("Identificação n°:" ,user)
+    print("Notas:" ,nota01, nota02, "e" ,nota03,)
+    print("Nédia de exercícios:" ,ME)
+    print("Média de aproveitamento:" ,MA)
+    print("Categoria B \n ==APROVADO==")
+elif MA >=60 and MA < 75:
+    print("Identificação n°:" ,user)
+    print("Notas:" ,nota01, nota02, "e" ,nota03,)
+    print("Nédia de exercícios:" ,ME)
+    print("Média de aproveitamento:" ,MA)
+    print("Categoria C \n ==APROVADO==")
+elif MA >= 40 and MA < 60:
+    print("Identificação n°:" ,user)
+    print("Notas:" ,nota01, nota02, "e" ,nota03,)
+    print("Nédia de exercícios:" ,ME)
+    print("Média de aproveitamento:" ,MA)
+    print("Categoria D \n ==REPROVADO==")
+elif MA < 40:
+    print("Identificação n°:" ,user)
+    print("Notas:" ,nota01, nota02, "e" ,nota03,)
+    print("Nédia de exercícios:" ,ME)
+    print("Média de aproveitamento:" ,MA)
+    print("Categoria E \n ==REROVADO==")
